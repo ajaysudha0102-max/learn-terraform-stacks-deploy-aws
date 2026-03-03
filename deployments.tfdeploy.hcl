@@ -39,4 +39,27 @@ deployment "test" {
     }
   }
 }
+deployment "development" {
+  inputs = {
+## ...
+  }
+
+  destroy = true
+}
+
+deployment "production" {
+  inputs = {
+## ...
+  }
+
+  destroy = true
+}
+
+deployment "test" {
+  inputs = {
+## ...
+  }
+
+  destroy = true
+}
 
